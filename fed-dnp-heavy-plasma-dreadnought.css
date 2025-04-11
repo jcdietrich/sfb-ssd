@@ -2,7 +2,7 @@
 body { font-family: sans-serif; }
 #ship-diagram {
     position: relative; width: 1050px; height: 800px; margin: 20px;
-    background-image: url('fed dnp heavy plasma dreadnought.png'); /* Use passed filename */
+    background-image: url('fed-dnp-heavy-plasma-dreadnought.png'); /* Use passed filename */
     background-repeat: no-repeat; background-size: contain;
     border: 1px solid #ccc; /* Optional */
 }

@@ -5,9 +5,10 @@ This tool will take an SSD image (approx. 1050 x 800) and create an HTML file wi
 ![Sample SSD]( ./rom-star-eagle.png )
 
 ## Live Sample Results
+
 ### Federation
-- [Federation DNP Heavy Plasma Dreadnought](https://jcdietrich.github.io/sfb-ssd/fed dnp heavy plasma dreadnought.html)
-- [Federation Heavy Cruiser](https://jcdietrich.github.io/sfb-ssd/fed-heavy-cruiser.html)
+- [Federation DNP Heavy Plasma Dreadnought](https://jcdietrich.github.io/sfb-ssd/fed-dnp-heavy-plasma-dreadnought.html)
+- [Federation Heavy Cruiser](https://jcdietrich.github.io/sfb-ssd/fed-heavy-cruser.html)
 
 ## Romulan
 - [Romulan Star Eagle Light Cruiser](https://jcdietrich.github.io/sfb-ssd/rom-star-eagle.html)
