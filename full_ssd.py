@@ -174,8 +174,9 @@ if __name__ == "__main__":
         print(f"Found {len(final_boxes)} potential boxes after filtering and de-duplication.")
         generate_files_relative(BG_IMG_FILENAME, final_boxes, width, height) # Pass necessary info
         if final_boxes:
-            cv2.imwrite(VIZ_OUTPUT_FILENAME, output_img)
-            print(f"\nVisualization saved to '{VIZ_OUTPUT_FILENAME}'")
+            # cv2.imwrite(VIZ_OUTPUT_FILENAME, output_img)
+            # print(f"\nVisualization saved to '{VIZ_OUTPUT_FILENAME}'")
+            print("Boxes found and saved to CSS/HTML files.")
         else:
             cv2.imwrite("debug_threshold.png", thresh)
             print("\nNo boxes found. Saved thresholded image to 'debug_threshold.png'.")

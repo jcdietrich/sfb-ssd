@@ -2,7 +2,7 @@
 body { font-family: sans-serif; }
 #ship-diagram {
     position: relative; width: 1280px; height: 976px; margin: 20px;
-    background-image: url('fed-heavy-cruser.jpeg'); /* Use passed filename */
+    background-image: url('fed-heavy-cruiser.jpg'); /* Use passed filename */
     background-repeat: no-repeat; background-size: contain;
     border: 1px solid #ccc; /* Optional */
 }
