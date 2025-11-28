@@ -1,0 +1,49 @@
+/* Auto-generated CSS - Relative Group (px units) */
+body { font-family: sans-serif; }
+#ship-diagram {
+    position: relative; width: 1500px; height: 1947px; margin: 20px;
+    background-image: url('ssd-002.png'); /* Use passed filename */
+    background-repeat: no-repeat; background-size: contain;
+    border: 1px solid #ccc; /* Optional */
+}
+#checkbox-master-group {
+    position: absolute; top: 165px; left: 43px; position: relative;
+    /* border: 1px dashed red; */ /* Optional */
+}
+#checkbox-master-group input[type="checkbox"] {
+    position: absolute; width: 16px; height: 16px;
+    margin: 0; padding: 0; cursor: pointer; box-sizing: border-box;
+}
+#checkbox-master-group input[type="checkbox"]:not(:checked) {
+    appearance: none; -webkit-appearance: none;
+    border: 1px solid rgba(0, 255, 0, .5); background-color: transparent; opacity: 1;
+}
+#checkbox-master-group input[type="checkbox"]:checked {
+   background-color: rgba(0, 255, 0, 0.5);
+}
+/* --- Individual Box Positions (Relative to Master Group - px units) --- */
+#box1 { top: 0px; left: 1089px; }
+#box2 { top: 180px; left: 1012px; }
+#box3 { top: 203px; left: 1061px; }
+#box4 { top: 281px; left: 1075px; }
+#box5 { top: 337px; left: 974px; }
+#box6 { top: 510px; left: 0px; }
+#box7 { top: 516px; left: 1049px; }
+#box8 { top: 533px; left: 1232px; }
+#box9 { top: 548px; left: 1090px; }
+#box10 { top: 620px; left: 264px; }
+#box11 { top: 623px; left: 1100px; }
+#box12 { top: 877px; left: 1215px; }
+#box13 { top: 1089px; left: 1367px; }
+#box14 { top: 1284px; left: 1367px; }
+#box15 { top: 1318px; left: 251px; }
+#box16 { top: 1319px; left: 343px; }
+#box17 { top: 1325px; left: 1367px; }
+#box18 { top: 1382px; left: 1420px; }
+#box19 { top: 1398px; left: 636px; }
+#box20 { top: 1404px; left: 1323px; }
+#box21 { top: 1471px; left: 160px; }
+#box22 { top: 1473px; left: 1367px; }
+#box23 { top: 1514px; left: 1367px; }
+#box24 { top: 1555px; left: 1367px; }
+#box25 { top: 1651px; left: 1367px; }
