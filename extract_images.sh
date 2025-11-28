@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # A script to extract images from a PDF, filter them by size, process them,
-# and save the final images into a directory named 'ssds'.
+# and save the final images into a directory named 'SSDs'.
 
 # --- Usage ---
 if [ -z "$1" ]; then
@@ -12,7 +12,7 @@ fi
 
 # --- Configuration ---
 PDF_FILE=$1
-OUTPUT_DIR="ssds"
+OUTPUT_DIR="SSDs" # Changed to SSDs
 TEMP_DIR="temp_extracted_pngs_$(date +%s)" # Use a unique temp dir name
 
 # --- Pre-flight Checks ---
@@ -70,8 +70,8 @@ else
         filename=$(basename "$file")
         echo "  - Processing '$filename'..."
         
-        # Use ImageMagick to resize, and invert colors
-        magick "$file"  -resize 1500x -negate "${OUTPUT_DIR}/${filename}"
+        # Use ImageMagick to resize, and invert colors (removed -rotate 90)
+        magick "$file" -resize 1500x -negate "${OUTPUT_DIR}/${filename}"
       fi
     done
 fi
