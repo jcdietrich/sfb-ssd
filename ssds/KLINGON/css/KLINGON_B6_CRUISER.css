@@ -2,23 +2,27 @@
 body { font-family: sans-serif; }
 #ship-diagram {
     position: relative; width: 1023px; height: 773px; margin: 20px;
-    background-image: url('../images/KLINGON_B6_BAT_CRUISER.png');
+    background-image: url('../images/KLINGON_B6_CRUISER.png');
     background-repeat: no-repeat; background-size: contain;
     border: 1px solid #ccc; /* Optional */
 }
-#checkbox-master-group {
-    position: absolute; top: 13px; left: 2px; position: relative;
-}
-#checkbox-master-group input[type="checkbox"] {
-    position: absolute; width: 16px; height: 16px;
-    margin: 0; padding: 0; cursor: pointer; box-sizing: border-box;
-}
-#checkbox-master-group input[type="checkbox"]:not(:checked) {
+ #checkbox-master-group input[type="checkbox"] {
+     position: absolute; width: 16px; height: 16px;
+     margin: 0; padding: 0; cursor: pointer; box-sizing: border-box;
+    appearance: none; -webkit-appearance: none;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    }
+ #checkbox-master-group input[type="checkbox"]:not(:checked) {
     appearance: none; -webkit-appearance: none;
     border: 1px solid rgba(0, 255, 0, .5); background-color: transparent; opacity: 1;
-}
-#checkbox-master-group input[type="checkbox"]:checked {
-   background-color: rgba(0, 255, 0, 0.5);
+ }
+ #checkbox-master-group input[type="checkbox"]:checked {
+   background-color: rgba(255, 0, 0, 0.5); /* Translucent red */
+   border: 1px solid rgba(255, 0, 0, 1); /* Solid red border */
+ }
+
+#checkbox-master-group {
+    position: absolute; top: 13px; left: 2px; position: relative;
 }
 /* --- Individual Box Positions (Relative to Master Group - px units) --- */
 #box1 { top: 0px; left: 0px; }
