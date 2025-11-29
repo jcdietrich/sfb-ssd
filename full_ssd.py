@@ -51,19 +51,23 @@ body {{ font-family: sans-serif; }}
     background-repeat: no-repeat; background-size: contain;
     border: 1px solid #ccc; /* Optional */
 }}
-#checkbox-master-group {{
-    position: absolute; top: {min_y}px; left: {min_x}px; position: relative;
-}}
-#checkbox-master-group input[type="checkbox"] {{
-    position: absolute; width: {BOX_SIZE_PX}px; height: {BOX_SIZE_PX}px;
-    margin: 0; padding: 0; cursor: pointer; box-sizing: border-box;
-}}
-#checkbox-master-group input[type="checkbox"]:not(:checked) {{
+ #checkbox-master-group input[type="checkbox"] {{
+     position: absolute; width: {BOX_SIZE_PX}px; height: {BOX_SIZE_PX}px;
+     margin: 0; padding: 0; cursor: pointer; box-sizing: border-box;
+    appearance: none; -webkit-appearance: none;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    }}
+ #checkbox-master-group input[type="checkbox"]:not(:checked) {{
     appearance: none; -webkit-appearance: none;
     border: 1px solid rgba(0, 255, 0, .5); background-color: transparent; opacity: 1;
-}}
-#checkbox-master-group input[type="checkbox"]:checked {{
-   background-color: rgba(0, 255, 0, 0.5);
+ }}
+ #checkbox-master-group input[type="checkbox"]:checked {{
+   background-color: rgba(255, 0, 0, 0.5); /* Translucent red */
+   border: 1px solid rgba(255, 0, 0, 1); /* Solid red border */
+ }}
+
+#checkbox-master-group {{
+    position: absolute; top: {min_y}px; left: {min_x}px; position: relative;
 }}
 /* --- Individual Box Positions (Relative to Master Group - px units) --- */
 """
