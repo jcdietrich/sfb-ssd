@@ -55,7 +55,10 @@ for faction_dir in "$BASE_DIR"/*/; do
             echo "  - Generating files for '$file'..."
             # Run the python script. It will create .html and .css files
             # in the same directory as the input file (i.e., inside 'images/')
+            cp "$file" "$file.white.png"
+            magick "$file.white.png" -negate "$file"
             python3 full_ssd.py "$file"
+            mv "$file.white.png" "$file"
         fi
     done
     echo "  - File generation complete for this faction."

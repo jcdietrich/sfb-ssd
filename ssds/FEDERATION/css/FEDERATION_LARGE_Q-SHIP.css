@@ -7,7 +7,7 @@ body { font-family: sans-serif; }
     border: 1px solid #ccc; /* Optional */
 }
 #checkbox-master-group {
-    position: absolute; top: 12px; left: 1px; position: relative;
+    position: absolute; top: 13px; left: 2px; position: relative;
 }
 #checkbox-master-group input[type="checkbox"] {
     position: absolute; width: 16px; height: 16px;

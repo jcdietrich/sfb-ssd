@@ -1,0 +1,204 @@
+/* Auto-generated CSS - Relative Group (px units) */
+body { font-family: sans-serif; }
+#ship-diagram {
+    position: relative; width: 998px; height: 757px; margin: 20px;
+    background-image: url('../images/KZNINTI_SMALL_SHIP.png');
+    background-repeat: no-repeat; background-size: contain;
+    border: 1px solid #ccc; /* Optional */
+}
+#checkbox-master-group {
+    position: absolute; top: 13px; left: 2px; position: relative;
+}
+#checkbox-master-group input[type="checkbox"] {
+    position: absolute; width: 16px; height: 16px;
+    margin: 0; padding: 0; cursor: pointer; box-sizing: border-box;
+}
+#checkbox-master-group input[type="checkbox"]:not(:checked) {
+    appearance: none; -webkit-appearance: none;
+    border: 1px solid rgba(0, 255, 0, .5); background-color: transparent; opacity: 1;
+}
+#checkbox-master-group input[type="checkbox"]:checked {
+   background-color: rgba(0, 255, 0, 0.5);
+}
+/* --- Individual Box Positions (Relative to Master Group - px units) --- */
+#box1 { top: 0px; left: 0px; }
+#box2 { top: 0px; left: 16px; }
+#box3 { top: 0px; left: 32px; }
+#box4 { top: 0px; left: 49px; }
+#box5 { top: 0px; left: 65px; }
+#box6 { top: 0px; left: 80px; }
+#box7 { top: 16px; left: 209px; }
+#box8 { top: 16px; left: 225px; }
+#box9 { top: 16px; left: 241px; }
+#box10 { top: 16px; left: 257px; }
+#box11 { top: 16px; left: 273px; }
+#box12 { top: 16px; left: 289px; }
+#box13 { top: 16px; left: 305px; }
+#box14 { top: 16px; left: 321px; }
+#box15 { top: 34px; left: 209px; }
+#box16 { top: 34px; left: 225px; }
+#box17 { top: 34px; left: 241px; }
+#box18 { top: 34px; left: 257px; }
+#box19 { top: 34px; left: 273px; }
+#box20 { top: 34px; left: 289px; }
+#box21 { top: 34px; left: 305px; }
+#box22 { top: 34px; left: 321px; }
+#box23 { top: 40px; left: 0px; }
+#box24 { top: 40px; left: 16px; }
+#box25 { top: 40px; left: 32px; }
+#box26 { top: 40px; left: 49px; }
+#box27 { top: 40px; left: 65px; }
+#box28 { top: 40px; left: 80px; }
+#box29 { top: 80px; left: 0px; }
+#box30 { top: 80px; left: 16px; }
+#box31 { top: 80px; left: 776px; }
+#box32 { top: 80px; left: 792px; }
+#box33 { top: 80px; left: 808px; }
+#box34 { top: 80px; left: 824px; }
+#box35 { top: 80px; left: 840px; }
+#box36 { top: 96px; left: 776px; }
+#box37 { top: 96px; left: 792px; }
+#box38 { top: 96px; left: 808px; }
+#box39 { top: 96px; left: 824px; }
+#box40 { top: 96px; left: 840px; }
+#box41 { top: 130px; left: 168px; }
+#box42 { top: 130px; left: 184px; }
+#box43 { top: 130px; left: 248px; }
+#box44 { top: 130px; left: 264px; }
+#box45 { top: 144px; left: 792px; }
+#box46 { top: 144px; left: 808px; }
+#box47 { top: 144px; left: 824px; }
+#box48 { top: 168px; left: 672px; }
+#box49 { top: 168px; left: 688px; }
+#box50 { top: 168px; left: 928px; }
+#box51 { top: 168px; left: 944px; }
+#box52 { top: 176px; left: 808px; }
+#box53 { top: 184px; left: 672px; }
+#box54 { top: 184px; left: 688px; }
+#box55 { top: 184px; left: 928px; }
+#box56 { top: 184px; left: 944px; }
+#box57 { top: 192px; left: 776px; }
+#box58 { top: 192px; left: 840px; }
+#box59 { top: 200px; left: 672px; }
+#box60 { top: 200px; left: 688px; }
+#box61 { top: 200px; left: 928px; }
+#box62 { top: 200px; left: 944px; }
+#box63 { top: 208px; left: 808px; }
+#box64 { top: 216px; left: 672px; }
+#box65 { top: 216px; left: 688px; }
+#box66 { top: 216px; left: 928px; }
+#box67 { top: 216px; left: 944px; }
+#box68 { top: 224px; left: 776px; }
+#box69 { top: 224px; left: 808px; }
+#box70 { top: 224px; left: 840px; }
+#box71 { top: 232px; left: 672px; }
+#box72 { top: 232px; left: 688px; }
+#box73 { top: 232px; left: 928px; }
+#box74 { top: 232px; left: 944px; }
+#box75 { top: 240px; left: 776px; }
+#box76 { top: 240px; left: 808px; }
+#box77 { top: 240px; left: 840px; }
+#box78 { top: 280px; left: 776px; }
+#box79 { top: 280px; left: 808px; }
+#box80 { top: 280px; left: 840px; }
+#box81 { top: 296px; left: 776px; }
+#box82 { top: 296px; left: 808px; }
+#box83 { top: 296px; left: 840px; }
+#box84 { top: 305px; left: 426px; }
+#box85 { top: 305px; left: 442px; }
+#box86 { top: 328px; left: 776px; }
+#box87 { top: 328px; left: 808px; }
+#box88 { top: 328px; left: 840px; }
+#box89 { top: 344px; left: 776px; }
+#box90 { top: 344px; left: 808px; }
+#box91 { top: 344px; left: 840px; }
+#box92 { top: 376px; left: 672px; }
+#box93 { top: 376px; left: 688px; }
+#box94 { top: 376px; left: 736px; }
+#box95 { top: 376px; left: 776px; }
+#box96 { top: 376px; left: 792px; }
+#box97 { top: 376px; left: 808px; }
+#box98 { top: 376px; left: 824px; }
+#box99 { top: 376px; left: 840px; }
+#box100 { top: 376px; left: 880px; }
+#box101 { top: 376px; left: 928px; }
+#box102 { top: 376px; left: 944px; }
+#box103 { top: 392px; left: 672px; }
+#box104 { top: 392px; left: 688px; }
+#box105 { top: 392px; left: 776px; }
+#box106 { top: 392px; left: 792px; }
+#box107 { top: 392px; left: 808px; }
+#box108 { top: 392px; left: 824px; }
+#box109 { top: 392px; left: 840px; }
+#box110 { top: 392px; left: 928px; }
+#box111 { top: 392px; left: 944px; }
+#box112 { top: 408px; left: 672px; }
+#box113 { top: 408px; left: 688px; }
+#box114 { top: 408px; left: 928px; }
+#box115 { top: 408px; left: 944px; }
+#box116 { top: 424px; left: 672px; }
+#box117 { top: 424px; left: 688px; }
+#box118 { top: 424px; left: 928px; }
+#box119 { top: 424px; left: 944px; }
+#box120 { top: 432px; left: 776px; }
+#box121 { top: 432px; left: 808px; }
+#box122 { top: 432px; left: 840px; }
+#box123 { top: 440px; left: 672px; }
+#box124 { top: 440px; left: 688px; }
+#box125 { top: 440px; left: 928px; }
+#box126 { top: 440px; left: 944px; }
+#box127 { top: 448px; left: 776px; }
+#box128 { top: 448px; left: 840px; }
+#box129 { top: 496px; left: 776px; }
+#box130 { top: 496px; left: 792px; }
+#box131 { top: 496px; left: 808px; }
+#box132 { top: 496px; left: 824px; }
+#box133 { top: 496px; left: 840px; }
+#box134 { top: 512px; left: 776px; }
+#box135 { top: 512px; left: 792px; }
+#box136 { top: 512px; left: 808px; }
+#box137 { top: 512px; left: 824px; }
+#box138 { top: 512px; left: 840px; }
+#box139 { top: 536px; left: 437px; }
+#box140 { top: 536px; left: 453px; }
+#box141 { top: 536px; left: 525px; }
+#box142 { top: 536px; left: 541px; }
+#box143 { top: 537px; left: 0px; }
+#box144 { top: 537px; left: 144px; }
+#box145 { top: 537px; left: 160px; }
+#box146 { top: 552px; left: 437px; }
+#box147 { top: 552px; left: 453px; }
+#box148 { top: 552px; left: 525px; }
+#box149 { top: 552px; left: 541px; }
+#box150 { top: 552px; left: 704px; }
+#box151 { top: 552px; left: 720px; }
+#box152 { top: 552px; left: 736px; }
+#box153 { top: 552px; left: 768px; }
+#box154 { top: 552px; left: 784px; }
+#box155 { top: 552px; left: 800px; }
+#box156 { top: 552px; left: 832px; }
+#box157 { top: 552px; left: 848px; }
+#box158 { top: 552px; left: 864px; }
+#box159 { top: 552px; left: 896px; }
+#box160 { top: 552px; left: 912px; }
+#box161 { top: 553px; left: 0px; }
+#box162 { top: 553px; left: 144px; }
+#box163 { top: 553px; left: 160px; }
+#box164 { top: 560px; left: 421px; }
+#box165 { top: 560px; left: 469px; }
+#box166 { top: 560px; left: 509px; }
+#box167 { top: 560px; left: 557px; }
+#box168 { top: 568px; left: 437px; }
+#box169 { top: 568px; left: 453px; }
+#box170 { top: 568px; left: 525px; }
+#box171 { top: 568px; left: 541px; }
+#box172 { top: 576px; left: 421px; }
+#box173 { top: 576px; left: 469px; }
+#box174 { top: 576px; left: 509px; }
+#box175 { top: 576px; left: 557px; }
+#box176 { top: 584px; left: 437px; }
+#box177 { top: 584px; left: 453px; }
+#box178 { top: 584px; left: 525px; }
+#box179 { top: 584px; left: 541px; }
+#box180 { top: 669px; left: 476px; }
+#box181 { top: 689px; left: 185px; }

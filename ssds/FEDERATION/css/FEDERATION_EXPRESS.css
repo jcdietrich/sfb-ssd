@@ -1,0 +1,91 @@
+/* Auto-generated CSS - Relative Group (px units) */
+body { font-family: sans-serif; }
+#ship-diagram {
+    position: relative; width: 966px; height: 591px; margin: 20px;
+    background-image: url('../images/FEDERATION_EXPRESS.png');
+    background-repeat: no-repeat; background-size: contain;
+    border: 1px solid #ccc; /* Optional */
+}
+#checkbox-master-group {
+    position: absolute; top: 13px; left: 2px; position: relative;
+}
+#checkbox-master-group input[type="checkbox"] {
+    position: absolute; width: 16px; height: 16px;
+    margin: 0; padding: 0; cursor: pointer; box-sizing: border-box;
+}
+#checkbox-master-group input[type="checkbox"]:not(:checked) {
+    appearance: none; -webkit-appearance: none;
+    border: 1px solid rgba(0, 255, 0, .5); background-color: transparent; opacity: 1;
+}
+#checkbox-master-group input[type="checkbox"]:checked {
+   background-color: rgba(0, 255, 0, 0.5);
+}
+/* --- Individual Box Positions (Relative to Master Group - px units) --- */
+#box1 { top: 0px; left: 0px; }
+#box2 { top: 0px; left: 16px; }
+#box3 { top: 0px; left: 32px; }
+#box4 { top: 16px; left: 209px; }
+#box5 { top: 16px; left: 225px; }
+#box6 { top: 16px; left: 241px; }
+#box7 { top: 16px; left: 257px; }
+#box8 { top: 16px; left: 273px; }
+#box9 { top: 16px; left: 289px; }
+#box10 { top: 16px; left: 305px; }
+#box11 { top: 16px; left: 321px; }
+#box12 { top: 43px; left: 0px; }
+#box13 { top: 96px; left: 758px; }
+#box14 { top: 96px; left: 774px; }
+#box15 { top: 96px; left: 790px; }
+#box16 { top: 96px; left: 806px; }
+#box17 { top: 96px; left: 822px; }
+#box18 { top: 144px; left: 694px; }
+#box19 { top: 144px; left: 886px; }
+#box20 { top: 160px; left: 694px; }
+#box21 { top: 160px; left: 886px; }
+#box22 { top: 168px; left: 790px; }
+#box23 { top: 176px; left: 694px; }
+#box24 { top: 176px; left: 886px; }
+#box25 { top: 192px; left: 694px; }
+#box26 { top: 192px; left: 886px; }
+#box27 { top: 200px; left: 774px; }
+#box28 { top: 200px; left: 790px; }
+#box29 { top: 200px; left: 806px; }
+#box30 { top: 208px; left: 694px; }
+#box31 { top: 208px; left: 886px; }
+#box32 { top: 232px; left: 758px; }
+#box33 { top: 232px; left: 790px; }
+#box34 { top: 232px; left: 822px; }
+#box35 { top: 264px; left: 758px; }
+#box36 { top: 264px; left: 790px; }
+#box37 { top: 264px; left: 822px; }
+#box38 { top: 267px; left: 427px; }
+#box39 { top: 267px; left: 443px; }
+#box40 { top: 280px; left: 694px; }
+#box41 { top: 280px; left: 886px; }
+#box42 { top: 296px; left: 694px; }
+#box43 { top: 296px; left: 790px; }
+#box44 { top: 296px; left: 886px; }
+#box45 { top: 299px; left: 427px; }
+#box46 { top: 299px; left: 443px; }
+#box47 { top: 312px; left: 694px; }
+#box48 { top: 312px; left: 886px; }
+#box49 { top: 328px; left: 694px; }
+#box50 { top: 328px; left: 774px; }
+#box51 { top: 328px; left: 806px; }
+#box52 { top: 328px; left: 886px; }
+#box53 { top: 344px; left: 694px; }
+#box54 { top: 344px; left: 774px; }
+#box55 { top: 344px; left: 806px; }
+#box56 { top: 344px; left: 886px; }
+#box57 { top: 392px; left: 758px; }
+#box58 { top: 392px; left: 774px; }
+#box59 { top: 392px; left: 790px; }
+#box60 { top: 392px; left: 806px; }
+#box61 { top: 392px; left: 822px; }
+#box62 { top: 448px; left: 694px; }
+#box63 { top: 448px; left: 710px; }
+#box64 { top: 448px; left: 758px; }
+#box65 { top: 448px; left: 774px; }
+#box66 { top: 448px; left: 822px; }
+#box67 { top: 448px; left: 838px; }
+#box68 { top: 448px; left: 886px; }

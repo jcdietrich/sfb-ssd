@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import pytesseract
 from PIL import Image
 import cv2
@@ -21,10 +22,11 @@ def levenshtein_distance(s1, s2):
         previous_row = current_row
     return previous_row[-1]
 
-def correct_word(word_to_correct, allowed_dict, forbidden_dict, max_distance_ratio=0.4):
+def correct_word(word_to_correct, allowed_dict, forbidden_dict, direct_substitutions, max_distance_ratio=0.4):
     if not word_to_correct:
         return ""
-    # Direct substitution is now handled in ocr_image_region_processed
+    if word_to_correct.upper() in direct_substitutions:
+        return direct_substitutions[word_to_correct.upper()]
     for forbidden_word in forbidden_dict:
         distance = levenshtein_distance(word_to_correct.upper(), forbidden_word.upper())
         if distance <= len(word_to_correct) * max_distance_ratio:
@@ -71,25 +73,15 @@ def ocr_image_region_processed(image_path, min_area, direct_substitutions):
         for line in lines_to_process:
             words_in_line = line.split()
             for word in words_in_line:
-                # 1. Check for direct substitutions first, even if it has lowercase
                 if word.upper() in direct_substitutions:
-                    # After substituting, the result might be multi-word, so split it
-                    substituted_words = direct_substitutions[word.upper()].split()
-                    processed_words_from_lines.extend(substituted_words)
+                    processed_words_from_lines.extend(direct_substitutions[word.upper()].split())
                     continue
-
-                # 2. If not a substitution, check for lowercase letters and discard
                 if any(c.islower() for c in word):
                     continue
-                
-                # 3. If it passes, then filter for allowed characters
                 filtered_word = "".join(char for char in word if char.isupper() or char.isdigit() or char == '-')
-                
                 if filtered_word:
-                    # 4. And finally, reject words that are purely numeric.
                     if not filtered_word.isdigit():
                         processed_words_from_lines.append(filtered_word)
-
         processed_text = " ".join(processed_words_from_lines)
         return raw_text, processed_text
     except Exception as e:
@@ -136,24 +128,21 @@ if __name__ == "__main__":
                         allowed_words.add(line.upper())
         except FileNotFoundError:
             print(f"Error: Dictionary file not found at {args.dictionary}")
-            # Do not exit, just don't use dictionary features
-            args.dictionary = None # Set to None so get_final_output knows no dictionary is used
+            args.dictionary = None
             print("Running without dictionary features.")
 
     def get_final_output(original_ocr_text, args):
-        if not args.dictionary or not original_ocr_text: # Check args.dictionary now
+        if not args.dictionary or not original_ocr_text:
             return original_ocr_text
 
         original_words = original_ocr_text.split()
         
-        # Levenshtein and forbidden word checks are still needed for words that were not direct subs
         if args.dictionary:
-            corrected_words = [correct_word(word, allowed_words, forbidden_words, args.max_distance_ratio) for word in original_words]
+            corrected_words = [correct_word(word, allowed_words, forbidden_words, direct_substitutions, args.max_distance_ratio) for word in original_words]
             corrected_words = [word for word in corrected_words if word]
         else:
             corrected_words = original_words
 
-        # Now apply stop word logic
         final_words = []
         for word in corrected_words:
             final_words.append(word)

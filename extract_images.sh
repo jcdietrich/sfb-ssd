@@ -70,8 +70,8 @@ else
         filename=$(basename "$file")
         echo "  - Processing '$filename'..."
         
-        # Use ImageMagick to resize, and invert colors (removed -rotate 90)
-        magick "$file" -resize 1500x -negate "${OUTPUT_DIR}/${filename}"
+        # Use ImageMagick to invert colors
+         magick "$file" -negate "${OUTPUT_DIR}/${filename}"
       fi
     done
 fi
