@@ -1,0 +1,173 @@
+/* Auto-generated CSS - Relative Group (px units) */
+body { font-family: sans-serif; }
+#ship-diagram {
+    position: relative; width: 998px; height: 739px; margin: 20px;
+    background-image: url('../images/ORION_FREE_TRAITSR.png');
+    background-repeat: no-repeat; background-size: contain;
+    border: 1px solid #ccc; /* Optional */
+}
+#checkbox-master-group {
+    position: absolute; top: 13px; left: 2px; position: relative;
+}
+#checkbox-master-group input[type="checkbox"] {
+    position: absolute; width: 16px; height: 16px;
+    margin: 0; padding: 0; cursor: pointer; box-sizing: border-box;
+}
+#checkbox-master-group input[type="checkbox"]:not(:checked) {
+    appearance: none; -webkit-appearance: none;
+    border: 1px solid rgba(0, 255, 0, .5); background-color: transparent; opacity: 1;
+}
+#checkbox-master-group input[type="checkbox"]:checked {
+   background-color: rgba(0, 255, 0, 0.5);
+}
+/* --- Individual Box Positions (Relative to Master Group - px units) --- */
+#box1 { top: 0px; left: 0px; }
+#box2 { top: 0px; left: 16px; }
+#box3 { top: 0px; left: 32px; }
+#box4 { top: 0px; left: 48px; }
+#box5 { top: 0px; left: 64px; }
+#box6 { top: 0px; left: 80px; }
+#box7 { top: 0px; left: 96px; }
+#box8 { top: 0px; left: 112px; }
+#box9 { top: 16px; left: 210px; }
+#box10 { top: 16px; left: 226px; }
+#box11 { top: 16px; left: 242px; }
+#box12 { top: 16px; left: 258px; }
+#box13 { top: 16px; left: 274px; }
+#box14 { top: 16px; left: 290px; }
+#box15 { top: 16px; left: 306px; }
+#box16 { top: 16px; left: 322px; }
+#box17 { top: 40px; left: 0px; }
+#box18 { top: 40px; left: 16px; }
+#box19 { top: 40px; left: 32px; }
+#box20 { top: 40px; left: 48px; }
+#box21 { top: 88px; left: 169px; }
+#box22 { top: 88px; left: 185px; }
+#box23 { top: 88px; left: 249px; }
+#box24 { top: 88px; left: 265px; }
+#box25 { top: 96px; left: 769px; }
+#box26 { top: 96px; left: 785px; }
+#box27 { top: 96px; left: 801px; }
+#box28 { top: 108px; left: 9px; }
+#box29 { top: 112px; left: 721px; }
+#box30 { top: 112px; left: 737px; }
+#box31 { top: 112px; left: 753px; }
+#box32 { top: 112px; left: 769px; }
+#box33 { top: 112px; left: 785px; }
+#box34 { top: 112px; left: 801px; }
+#box35 { top: 112px; left: 817px; }
+#box36 { top: 112px; left: 833px; }
+#box37 { top: 112px; left: 849px; }
+#box38 { top: 144px; left: 641px; }
+#box39 { top: 144px; left: 657px; }
+#box40 { top: 144px; left: 913px; }
+#box41 { top: 144px; left: 929px; }
+#box42 { top: 160px; left: 641px; }
+#box43 { top: 160px; left: 657px; }
+#box44 { top: 160px; left: 913px; }
+#box45 { top: 160px; left: 929px; }
+#box46 { top: 176px; left: 641px; }
+#box47 { top: 176px; left: 657px; }
+#box48 { top: 176px; left: 777px; }
+#box49 { top: 176px; left: 793px; }
+#box50 { top: 176px; left: 913px; }
+#box51 { top: 176px; left: 929px; }
+#box52 { top: 192px; left: 641px; }
+#box53 { top: 192px; left: 657px; }
+#box54 { top: 192px; left: 745px; }
+#box55 { top: 192px; left: 825px; }
+#box56 { top: 192px; left: 913px; }
+#box57 { top: 192px; left: 929px; }
+#box58 { top: 208px; left: 641px; }
+#box59 { top: 208px; left: 657px; }
+#box60 { top: 208px; left: 785px; }
+#box61 { top: 208px; left: 913px; }
+#box62 { top: 208px; left: 929px; }
+#box63 { top: 224px; left: 641px; }
+#box64 { top: 224px; left: 657px; }
+#box65 { top: 224px; left: 737px; }
+#box66 { top: 224px; left: 753px; }
+#box67 { top: 224px; left: 817px; }
+#box68 { top: 224px; left: 833px; }
+#box69 { top: 224px; left: 913px; }
+#box70 { top: 224px; left: 929px; }
+#box71 { top: 240px; left: 785px; }
+#box72 { top: 256px; left: 721px; }
+#box73 { top: 256px; left: 737px; }
+#box74 { top: 256px; left: 753px; }
+#box75 { top: 256px; left: 785px; }
+#box76 { top: 256px; left: 817px; }
+#box77 { top: 256px; left: 833px; }
+#box78 { top: 256px; left: 849px; }
+#box79 { top: 272px; left: 641px; }
+#box80 { top: 272px; left: 657px; }
+#box81 { top: 272px; left: 721px; }
+#box82 { top: 272px; left: 737px; }
+#box83 { top: 272px; left: 753px; }
+#box84 { top: 272px; left: 817px; }
+#box85 { top: 272px; left: 833px; }
+#box86 { top: 272px; left: 849px; }
+#box87 { top: 272px; left: 913px; }
+#box88 { top: 272px; left: 929px; }
+#box89 { top: 288px; left: 641px; }
+#box90 { top: 288px; left: 657px; }
+#box91 { top: 288px; left: 785px; }
+#box92 { top: 288px; left: 913px; }
+#box93 { top: 288px; left: 929px; }
+#box94 { top: 304px; left: 641px; }
+#box95 { top: 304px; left: 657px; }
+#box96 { top: 304px; left: 737px; }
+#box97 { top: 304px; left: 753px; }
+#box98 { top: 304px; left: 817px; }
+#box99 { top: 304px; left: 833px; }
+#box100 { top: 304px; left: 913px; }
+#box101 { top: 304px; left: 929px; }
+#box102 { top: 320px; left: 641px; }
+#box103 { top: 320px; left: 657px; }
+#box104 { top: 320px; left: 737px; }
+#box105 { top: 320px; left: 753px; }
+#box106 { top: 320px; left: 785px; }
+#box107 { top: 320px; left: 817px; }
+#box108 { top: 320px; left: 833px; }
+#box109 { top: 320px; left: 913px; }
+#box110 { top: 320px; left: 929px; }
+#box111 { top: 336px; left: 641px; }
+#box112 { top: 336px; left: 657px; }
+#box113 { top: 336px; left: 737px; }
+#box114 { top: 336px; left: 753px; }
+#box115 { top: 336px; left: 785px; }
+#box116 { top: 336px; left: 817px; }
+#box117 { top: 336px; left: 833px; }
+#box118 { top: 336px; left: 913px; }
+#box119 { top: 336px; left: 929px; }
+#box120 { top: 352px; left: 641px; }
+#box121 { top: 352px; left: 657px; }
+#box122 { top: 352px; left: 913px; }
+#box123 { top: 352px; left: 929px; }
+#box124 { top: 408px; left: 713px; }
+#box125 { top: 408px; left: 729px; }
+#box126 { top: 408px; left: 745px; }
+#box127 { top: 408px; left: 761px; }
+#box128 { top: 408px; left: 777px; }
+#box129 { top: 408px; left: 793px; }
+#box130 { top: 408px; left: 809px; }
+#box131 { top: 408px; left: 825px; }
+#box132 { top: 408px; left: 841px; }
+#box133 { top: 424px; left: 761px; }
+#box134 { top: 424px; left: 777px; }
+#box135 { top: 424px; left: 793px; }
+#box136 { top: 451px; left: 427px; }
+#box137 { top: 451px; left: 443px; }
+#box138 { top: 472px; left: 641px; }
+#box139 { top: 472px; left: 657px; }
+#box140 { top: 472px; left: 673px; }
+#box141 { top: 472px; left: 721px; }
+#box142 { top: 472px; left: 737px; }
+#box143 { top: 472px; left: 753px; }
+#box144 { top: 472px; left: 801px; }
+#box145 { top: 472px; left: 817px; }
+#box146 { top: 472px; left: 833px; }
+#box147 { top: 472px; left: 897px; }
+#box148 { top: 472px; left: 913px; }
+#box149 { top: 651px; left: 476px; }
+#box150 { top: 671px; left: 185px; }

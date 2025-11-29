@@ -1,0 +1,109 @@
+/* Auto-generated CSS - Relative Group (px units) */
+body { font-family: sans-serif; }
+#ship-diagram {
+    position: relative; width: 998px; height: 716px; margin: 20px;
+    background-image: url('../images/TRANSPORT.png');
+    background-repeat: no-repeat; background-size: contain;
+    border: 1px solid #ccc; /* Optional */
+}
+#checkbox-master-group {
+    position: absolute; top: 13px; left: 2px; position: relative;
+}
+#checkbox-master-group input[type="checkbox"] {
+    position: absolute; width: 16px; height: 16px;
+    margin: 0; padding: 0; cursor: pointer; box-sizing: border-box;
+}
+#checkbox-master-group input[type="checkbox"]:not(:checked) {
+    appearance: none; -webkit-appearance: none;
+    border: 1px solid rgba(0, 255, 0, .5); background-color: transparent; opacity: 1;
+}
+#checkbox-master-group input[type="checkbox"]:checked {
+   background-color: rgba(0, 255, 0, 0.5);
+}
+/* --- Individual Box Positions (Relative to Master Group - px units) --- */
+#box1 { top: 0px; left: 0px; }
+#box2 { top: 0px; left: 16px; }
+#box3 { top: 0px; left: 32px; }
+#box4 { top: 0px; left: 48px; }
+#box5 { top: 16px; left: 210px; }
+#box6 { top: 16px; left: 226px; }
+#box7 { top: 16px; left: 242px; }
+#box8 { top: 16px; left: 258px; }
+#box9 { top: 16px; left: 274px; }
+#box10 { top: 16px; left: 290px; }
+#box11 { top: 16px; left: 306px; }
+#box12 { top: 16px; left: 322px; }
+#box13 { top: 48px; left: 0px; }
+#box14 { top: 48px; left: 16px; }
+#box15 { top: 96px; left: 169px; }
+#box16 { top: 96px; left: 185px; }
+#box17 { top: 96px; left: 249px; }
+#box18 { top: 96px; left: 265px; }
+#box19 { top: 132px; left: 772px; }
+#box20 { top: 132px; left: 788px; }
+#box21 { top: 132px; left: 804px; }
+#box22 { top: 132px; left: 820px; }
+#box23 { top: 132px; left: 836px; }
+#box24 { top: 164px; left: 620px; }
+#box25 { top: 180px; left: 620px; }
+#box26 { top: 180px; left: 716px; }
+#box27 { top: 180px; left: 804px; }
+#box28 { top: 180px; left: 892px; }
+#box29 { top: 196px; left: 716px; }
+#box30 { top: 196px; left: 892px; }
+#box31 { top: 212px; left: 716px; }
+#box32 { top: 212px; left: 772px; }
+#box33 { top: 212px; left: 804px; }
+#box34 { top: 212px; left: 836px; }
+#box35 { top: 212px; left: 892px; }
+#box36 { top: 228px; left: 716px; }
+#box37 { top: 228px; left: 892px; }
+#box38 { top: 244px; left: 620px; }
+#box39 { top: 244px; left: 716px; }
+#box40 { top: 244px; left: 772px; }
+#box41 { top: 244px; left: 804px; }
+#box42 { top: 244px; left: 836px; }
+#box43 { top: 244px; left: 892px; }
+#box44 { top: 260px; left: 620px; }
+#box45 { top: 260px; left: 772px; }
+#box46 { top: 260px; left: 836px; }
+#box47 { top: 276px; left: 772px; }
+#box48 { top: 276px; left: 804px; }
+#box49 { top: 276px; left: 836px; }
+#box50 { top: 308px; left: 716px; }
+#box51 { top: 308px; left: 772px; }
+#box52 { top: 308px; left: 788px; }
+#box53 { top: 308px; left: 804px; }
+#box54 { top: 308px; left: 820px; }
+#box55 { top: 308px; left: 836px; }
+#box56 { top: 308px; left: 892px; }
+#box57 { top: 314px; left: 427px; }
+#box58 { top: 324px; left: 620px; }
+#box59 { top: 324px; left: 716px; }
+#box60 { top: 324px; left: 892px; }
+#box61 { top: 340px; left: 620px; }
+#box62 { top: 340px; left: 716px; }
+#box63 { top: 340px; left: 772px; }
+#box64 { top: 340px; left: 804px; }
+#box65 { top: 340px; left: 836px; }
+#box66 { top: 340px; left: 892px; }
+#box67 { top: 346px; left: 427px; }
+#box68 { top: 346px; left: 443px; }
+#box69 { top: 356px; left: 716px; }
+#box70 { top: 356px; left: 892px; }
+#box71 { top: 372px; left: 716px; }
+#box72 { top: 372px; left: 788px; }
+#box73 { top: 372px; left: 820px; }
+#box74 { top: 372px; left: 892px; }
+#box75 { top: 388px; left: 788px; }
+#box76 { top: 388px; left: 820px; }
+#box77 { top: 404px; left: 620px; }
+#box78 { top: 404px; left: 788px; }
+#box79 { top: 404px; left: 820px; }
+#box80 { top: 444px; left: 772px; }
+#box81 { top: 444px; left: 788px; }
+#box82 { top: 444px; left: 804px; }
+#box83 { top: 444px; left: 820px; }
+#box84 { top: 444px; left: 836px; }
+#box85 { top: 628px; left: 475px; }
+#box86 { top: 648px; left: 186px; }

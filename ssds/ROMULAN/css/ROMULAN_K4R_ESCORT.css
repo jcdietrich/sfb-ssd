@@ -1,0 +1,202 @@
+/* Auto-generated CSS - Relative Group (px units) */
+body { font-family: sans-serif; }
+#ship-diagram {
+    position: relative; width: 1000px; height: 741px; margin: 20px;
+    background-image: url('../images/ROMULAN_K4R_ESCORT.png');
+    background-repeat: no-repeat; background-size: contain;
+    border: 1px solid #ccc; /* Optional */
+}
+#checkbox-master-group {
+    position: absolute; top: 13px; left: 2px; position: relative;
+}
+#checkbox-master-group input[type="checkbox"] {
+    position: absolute; width: 16px; height: 16px;
+    margin: 0; padding: 0; cursor: pointer; box-sizing: border-box;
+}
+#checkbox-master-group input[type="checkbox"]:not(:checked) {
+    appearance: none; -webkit-appearance: none;
+    border: 1px solid rgba(0, 255, 0, .5); background-color: transparent; opacity: 1;
+}
+#checkbox-master-group input[type="checkbox"]:checked {
+   background-color: rgba(0, 255, 0, 0.5);
+}
+/* --- Individual Box Positions (Relative to Master Group - px units) --- */
+#box1 { top: 0px; left: 0px; }
+#box2 { top: 0px; left: 16px; }
+#box3 { top: 0px; left: 32px; }
+#box4 { top: 0px; left: 48px; }
+#box5 { top: 0px; left: 64px; }
+#box6 { top: 0px; left: 80px; }
+#box7 { top: 0px; left: 96px; }
+#box8 { top: 0px; left: 112px; }
+#box9 { top: 0px; left: 128px; }
+#box10 { top: 0px; left: 144px; }
+#box11 { top: 16px; left: 0px; }
+#box12 { top: 16px; left: 16px; }
+#box13 { top: 16px; left: 32px; }
+#box14 { top: 16px; left: 210px; }
+#box15 { top: 16px; left: 226px; }
+#box16 { top: 16px; left: 242px; }
+#box17 { top: 16px; left: 258px; }
+#box18 { top: 16px; left: 274px; }
+#box19 { top: 16px; left: 290px; }
+#box20 { top: 16px; left: 306px; }
+#box21 { top: 16px; left: 322px; }
+#box22 { top: 32px; left: 210px; }
+#box23 { top: 32px; left: 226px; }
+#box24 { top: 32px; left: 242px; }
+#box25 { top: 32px; left: 258px; }
+#box26 { top: 32px; left: 274px; }
+#box27 { top: 32px; left: 290px; }
+#box28 { top: 32px; left: 306px; }
+#box29 { top: 32px; left: 322px; }
+#box30 { top: 56px; left: 0px; }
+#box31 { top: 56px; left: 16px; }
+#box32 { top: 56px; left: 32px; }
+#box33 { top: 56px; left: 48px; }
+#box34 { top: 78px; left: 716px; }
+#box35 { top: 78px; left: 732px; }
+#box36 { top: 78px; left: 748px; }
+#box37 { top: 78px; left: 764px; }
+#box38 { top: 78px; left: 780px; }
+#box39 { top: 78px; left: 796px; }
+#box40 { top: 78px; left: 812px; }
+#box41 { top: 78px; left: 828px; }
+#box42 { top: 78px; left: 844px; }
+#box43 { top: 78px; left: 860px; }
+#box44 { top: 78px; left: 876px; }
+#box45 { top: 78px; left: 892px; }
+#box46 { top: 78px; left: 908px; }
+#box47 { top: 94px; left: 716px; }
+#box48 { top: 94px; left: 732px; }
+#box49 { top: 94px; left: 748px; }
+#box50 { top: 94px; left: 764px; }
+#box51 { top: 94px; left: 860px; }
+#box52 { top: 94px; left: 876px; }
+#box53 { top: 94px; left: 892px; }
+#box54 { top: 94px; left: 908px; }
+#box55 { top: 110px; left: 612px; }
+#box56 { top: 126px; left: 612px; }
+#box57 { top: 126px; left: 660px; }
+#box58 { top: 126px; left: 676px; }
+#box59 { top: 126px; left: 948px; }
+#box60 { top: 126px; left: 964px; }
+#box61 { top: 128px; left: 169px; }
+#box62 { top: 128px; left: 185px; }
+#box63 { top: 128px; left: 249px; }
+#box64 { top: 128px; left: 265px; }
+#box65 { top: 142px; left: 612px; }
+#box66 { top: 142px; left: 660px; }
+#box67 { top: 142px; left: 676px; }
+#box68 { top: 142px; left: 812px; }
+#box69 { top: 142px; left: 948px; }
+#box70 { top: 142px; left: 964px; }
+#box71 { top: 158px; left: 612px; }
+#box72 { top: 158px; left: 660px; }
+#box73 { top: 158px; left: 676px; }
+#box74 { top: 158px; left: 780px; }
+#box75 { top: 158px; left: 844px; }
+#box76 { top: 158px; left: 948px; }
+#box77 { top: 158px; left: 964px; }
+#box78 { top: 174px; left: 660px; }
+#box79 { top: 174px; left: 676px; }
+#box80 { top: 174px; left: 812px; }
+#box81 { top: 174px; left: 948px; }
+#box82 { top: 174px; left: 964px; }
+#box83 { top: 190px; left: 660px; }
+#box84 { top: 190px; left: 676px; }
+#box85 { top: 190px; left: 948px; }
+#box86 { top: 190px; left: 964px; }
+#box87 { top: 206px; left: 612px; }
+#box88 { top: 206px; left: 660px; }
+#box89 { top: 206px; left: 676px; }
+#box90 { top: 206px; left: 812px; }
+#box91 { top: 206px; left: 948px; }
+#box92 { top: 206px; left: 964px; }
+#box93 { top: 222px; left: 612px; }
+#box94 { top: 238px; left: 612px; }
+#box95 { top: 238px; left: 812px; }
+#box96 { top: 254px; left: 612px; }
+#box97 { top: 254px; left: 660px; }
+#box98 { top: 254px; left: 964px; }
+#box99 { top: 270px; left: 660px; }
+#box100 { top: 270px; left: 804px; }
+#box101 { top: 270px; left: 820px; }
+#box102 { top: 270px; left: 964px; }
+#box103 { top: 286px; left: 660px; }
+#box104 { top: 286px; left: 964px; }
+#box105 { top: 302px; left: 612px; }
+#box106 { top: 302px; left: 660px; }
+#box107 { top: 302px; left: 812px; }
+#box108 { top: 302px; left: 964px; }
+#box109 { top: 318px; left: 612px; }
+#box110 { top: 318px; left: 660px; }
+#box111 { top: 318px; left: 964px; }
+#box112 { top: 334px; left: 612px; }
+#box113 { top: 334px; left: 660px; }
+#box114 { top: 334px; left: 964px; }
+#box115 { top: 342px; left: 748px; }
+#box116 { top: 342px; left: 780px; }
+#box117 { top: 342px; left: 812px; }
+#box118 { top: 342px; left: 844px; }
+#box119 { top: 342px; left: 876px; }
+#box120 { top: 349px; left: 427px; }
+#box121 { top: 350px; left: 612px; }
+#box122 { top: 350px; left: 660px; }
+#box123 { top: 350px; left: 964px; }
+#box124 { top: 366px; left: 660px; }
+#box125 { top: 366px; left: 964px; }
+#box126 { top: 374px; left: 756px; }
+#box127 { top: 374px; left: 788px; }
+#box128 { top: 374px; left: 804px; }
+#box129 { top: 374px; left: 820px; }
+#box130 { top: 374px; left: 836px; }
+#box131 { top: 374px; left: 868px; }
+#box132 { top: 381px; left: 427px; }
+#box133 { top: 381px; left: 443px; }
+#box134 { top: 382px; left: 660px; }
+#box135 { top: 382px; left: 964px; }
+#box136 { top: 390px; left: 700px; }
+#box137 { top: 390px; left: 716px; }
+#box138 { top: 390px; left: 908px; }
+#box139 { top: 390px; left: 924px; }
+#box140 { top: 398px; left: 612px; }
+#box141 { top: 398px; left: 660px; }
+#box142 { top: 398px; left: 964px; }
+#box143 { top: 406px; left: 700px; }
+#box144 { top: 406px; left: 716px; }
+#box145 { top: 406px; left: 772px; }
+#box146 { top: 406px; left: 804px; }
+#box147 { top: 406px; left: 820px; }
+#box148 { top: 406px; left: 852px; }
+#box149 { top: 406px; left: 908px; }
+#box150 { top: 406px; left: 924px; }
+#box151 { top: 414px; left: 612px; }
+#box152 { top: 414px; left: 660px; }
+#box153 { top: 414px; left: 964px; }
+#box154 { top: 422px; left: 700px; }
+#box155 { top: 422px; left: 716px; }
+#box156 { top: 422px; left: 908px; }
+#box157 { top: 422px; left: 924px; }
+#box158 { top: 430px; left: 612px; }
+#box159 { top: 430px; left: 660px; }
+#box160 { top: 430px; left: 964px; }
+#box161 { top: 446px; left: 612px; }
+#box162 { top: 462px; left: 780px; }
+#box163 { top: 462px; left: 796px; }
+#box164 { top: 462px; left: 812px; }
+#box165 { top: 462px; left: 828px; }
+#box166 { top: 462px; left: 844px; }
+#box167 { top: 478px; left: 764px; }
+#box168 { top: 478px; left: 780px; }
+#box169 { top: 478px; left: 796px; }
+#box170 { top: 478px; left: 812px; }
+#box171 { top: 478px; left: 828px; }
+#box172 { top: 478px; left: 844px; }
+#box173 { top: 478px; left: 860px; }
+#box174 { top: 518px; left: 692px; }
+#box175 { top: 613px; left: 462px; }
+#box176 { top: 613px; left: 510px; }
+#box177 { top: 616px; left: 345px; }
+#box178 { top: 653px; left: 476px; }
+#box179 { top: 673px; left: 185px; }
